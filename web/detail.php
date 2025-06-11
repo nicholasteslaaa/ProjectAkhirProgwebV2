@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     
     <div class="container">
         <div class="job-details">
-            <h2>Software Engineer</h2>
+            <h2><?php echo $job; ?></h2>
             <table class = "main_table"> 
                 <tr>
                     <td class="kolomtable">

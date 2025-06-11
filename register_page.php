@@ -1,7 +1,7 @@
 
 <?php
 include "web/method.php";
-require "web/DBconnection.php";
+require_once "web/DBmanager/DBconnection.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["image"])) {
     $email = $_POST["Email"];
